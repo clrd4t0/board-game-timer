@@ -1,0 +1,55 @@
+html, body {
+    height: 98vh;
+}
+
+body {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.controls {
+    flex: 0 0 auto;
+    height: 64px;
+}
+
+.control-buttons {
+    width: 64px;
+    height: 64px;
+    filter: invert(1);
+    margin: 0 20px;
+}
+
+.timers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.timing-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: rgb(255, 246, 231);
+    border-width: 2px;
+    border-style: solid;
+    width: 90%;
+    height: 90%;
+    color: #1f1f1f;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+#player1 {
+    rotate: 180deg;
+    background-color: rgb(146, 81, 81);
+}
+
+#player2 {
+    background-color: rgb(29, 140, 173);
+}
