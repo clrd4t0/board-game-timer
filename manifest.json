@@ -1,5 +1,5 @@
 {
-  "name": "Board Game Timer",
+  "name": "GameTime",
   "icons": [
     {
       "src": "images/icon-512x512.png",
@@ -13,5 +13,6 @@
     }
   ],
     "start_url": "index.html",
-    "display": "standalone"
+    "display": "standalone",
+    "background_color": "#1f1f1f"
 }
