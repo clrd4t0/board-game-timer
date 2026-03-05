@@ -1,5 +1,6 @@
 html {
     overflow: hidden;
+    touch-action: none;
 }
 
 body {
@@ -10,4 +11,10 @@ body {
 
 :root {
     overscroll-behavior-y: none;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    touch-action: manipulation;
 }
