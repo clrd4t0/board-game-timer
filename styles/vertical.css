@@ -45,12 +45,15 @@ body {
     font-weight: 600;
 }
 
-#player1 {
-    rotate: 180deg;
+.player1 {
     background-color: rgb(146, 81, 81);
 }
 
-#player2 {
+.player1.timing-buttons {
+    rotate: 180deg;
+}
+
+.player2 {
     background-color: rgb(29, 140, 173);
 }
 
@@ -68,6 +71,9 @@ body {
     border-width: 2px;
     border-style: solid;
     visibility: hidden;
+    overflow-y: scroll;
+    padding: 10vw;
+    box-sizing: border-box;
 }
 
 .popup-visible {
@@ -75,10 +81,12 @@ body {
 }
 
 #close-settings-button {
+    z-index: 2;
     margin: 0;
-    position: absolute;
+    position: fixed;
     top: 2vw;
     left: 2vw;
     height: 40px;
     width: 40px;
 }
+

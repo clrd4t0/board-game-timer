@@ -16,7 +16,7 @@
 </head>
 <body>
     <div class="timers">
-        <div class="timing-buttons" id="player1">
+        <div class="timing-buttons player1">
             Player 1
         </div>
     </div>
@@ -26,12 +26,22 @@
         <img class="control-buttons" id="reset-button" src="images/reset.png">
     </div>
     <div class="timers">
-        <div class="timing-buttons" id="player2">
+        <div class="timing-buttons player2">
             Player 2
         </div>
     </div>
     <div class="full-screen-popups" id="settings">
         <img class="control-buttons" id="close-settings-button" src="images/close.png">
+        <div class="setting-items" id="player-names">
+            <div class="player1">
+                <label for="player1-name-input">Player 1 Name:</label>
+                <input type="text" id="player1-name-input" name="player1-name-input" placeholder="Player 1">
+            </div>
+            <div class="player2">
+                <label for="player2-name-input">Player 2 Name:</label>
+                <input type="text" id="player2-name-input" name="player2-name-input" placeholder="Player 2">
+            </div>
+        </div>
     </div>
     <script src="scripts/app.js"></script>
 </body>
