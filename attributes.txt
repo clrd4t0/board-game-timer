@@ -1,0 +1,14 @@
+Pause Icon:
+<a href="https://www.flaticon.com/free-icons/pause" title="pause icons">Pause icons created by Debi Alpa Nugraha - Flaticon</a>
+
+Reload Icon: 
+<a href="https://www.flaticon.com/free-icons/refresh" title="refresh icons">Refresh icons created by Uniconlabs - Flaticon</a>
+
+Settings Icon:
+<a href="https://www.flaticon.com/free-icons/settings" title="settings icons">Settings icons created by Pixel perfect - Flaticon</a>
+
+Font:
+<a href="https://fonts.google.com/specimen/Tilt+Neon" title="Tilt Neon font">Font is Tilt Neon by Andy Clymer</a>
+
+Close Icon:
+<a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by ariefstudio - Flaticon</a>
